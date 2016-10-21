@@ -1,0 +1,38 @@
+{
+  "intents":  [
+  
+    	{
+      		"intent": "AMAZON.StartOverIntent"
+    	},
+    	{
+    		"intent": "AMAZON.RepeatIntent"
+    	},
+    
+    	{
+      		"intent": "AMAZON.StopIntent"
+    	},
+    
+   		{
+     	    "intent": "AMAZON.CancelIntent"
+    	},
+    
+    	{
+      		"intent": "ReceiveNumberIntent",
+      		"slots": [
+      			{
+        			"name": "RedNum",
+        			  "type": "AMAZON.NUMBER"
+       			 },
+       			 {
+        			"name" : "BlueNum",
+       				 "type": "AMAZON.NUMBER"
+        		},
+       			 {
+       				 "name": "GreenNum",
+        				"type": "AMAZON.NUMBER"
+      				}
+      		]		
+    	}
+  ]
+
+}
